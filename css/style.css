@@ -1,0 +1,141 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #2f2f2f;
+}
+
+.side-pannel {
+	position: absolute;
+	height: 100%;
+	width: 250px;
+	background-color: #5f5f5f;
+	box-shadow: 2px 0px 16px 0px black;
+	z-index: 3;
+}
+
+.header {
+	width: 100%;
+	height: 90px;
+	background-color: #1172ea;
+	float: right;
+    width: 1115px;
+}
+
+.lgt-btn {
+	position: absolute;
+	left: 90%;
+	margin-right: 20px;
+	top: 25px;
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+	background-color: #e00000;
+	width: 120px;
+	height: 40px;
+}
+
+.vertical-menu {
+	position: relative;
+	width: 200px;
+	left: 50px;
+}
+.vertical-menu a {
+	background-color: transparent;
+	color: #000;
+	text-align: left;
+	display: block;
+	padding: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	text-indent: 1cm;
+}
+
+.vertical-menu a:hover {
+	background-color: #ccc;
+	color: #000;
+}
+label {
+	position: relative;
+    right: 40px;
+    font-size: 24px;
+    color: #fff;
+    font-family: helvetica;
+}
+
+.user {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	background-image: url(../src/img/user.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	top: 20px;
+	left: 20px;
+}
+
+#userID {
+	color: #000;
+	position: relative;
+	top: -35px;
+	left: 80px;
+}
+img {
+	position: relative;
+	top: 5px;
+	margin-right: 3px;
+}
+
+.container {
+	position: relative;
+	position: relative;
+    width: 470px;
+    height: 400px;
+    float: right;
+    top: 50px;
+    right: 500px;
+}
+
+.form-group {
+	position: relative;
+	top: 50px;
+}
+
+.form-control {
+	position: relative;
+    width: 400px;
+    height: 40px;
+    left: 60px;
+	margin-top: 30px;
+	background-color: transparent;
+	border-top: transparent;
+	border-right: transparent;
+	border-left: transparent;
+	outline: none;
+	color: #fff;
+	text-indent: .5cm;
+	border-bottom-color: grey; 
+	transform: translate(-10%, -5%);
+	box-sizing: border-box;
+	font-size: 18px;
+}
+
+.form-control:focus{
+	border-bottom-color: #fff; 
+	width: 420px;
+}
+
+.sbmt-btn {
+	position: relative;
+	top: 20px;
+	left: 150px;
+	border: none;
+	width: 150px;
+	height: 40px;
+	background-color: #33de08;
+	border-radius: 5px;
+}
+
+#page-header {
+	color: lightgrey;
+	font-family: helvetica;
+}

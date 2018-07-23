@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forgot Password</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<style type="text/css">
+	.login-box {
+	    position: relative;
+	    top: 140px;
+	    left: 140px;
+	    width: 325px;
+	    height: 380px;
+	    background-color: #fff;
+	    border-radius: 5px;
+	}
+	h3 {
+        position: absolute;
+        top: 35px;
+        font-size: 24px;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        text-indent: 1.5cm;
+        color: #c0392b;
+    }
+    .form-control {
+    	width: 240px;
+    	top: 50px;
+    	color: #000;
+    }
+    .form-control:focus {
+        border-bottom-color: #000;
+        transform: translate(-10%, -5%);
+        width: 260px;
+        color: #000;
+    }
+	.side-bar {
+        position: absolute;
+        width: 300px;
+        height: 100%;
+        background-color: #0097e6 ;
+    }
+    .sbmt-btn {
+    	position: absolute;
+    	top: 150px;
+    	left: 80px;
+    }
+</style>
+<body>
+	<div class="side-bar"></div>
+	<div class="login-box">
+		<h3>Forgot Password?</h3>
+		<form class="form-group" action="../scripts/checkMail.php" method="post">
+			<input class="form-control" type="text" name="email" placeholder="Email ID" autocomplete="off">
+			<input type="submit" class="sbmt-btn" value="Submit">
+		</form>	
+	</div>
+</body>
+</html>
